@@ -1,0 +1,118 @@
+body{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+}
+.section-one{
+    padding:10px;
+    width: 50%;
+}
+.main-section{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    margin:0 auto;
+    max-width: 1380px;
+    justify-content: space-between;
+}
+.small-title span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color:#d3335d;
+    margin-right: 5px;
+
+}
+.small-title{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.title .underline{
+    position: relative;
+}
+.title{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    max-width: 556px;
+    line-height: 55px;
+    margin: 0;
+}
+.title svg{
+    position: absolute;
+    top:auto;
+    left: 50%;
+    bottom: 7%;
+    width: 106%;
+    height:100%;
+    transform: translate(-50%);
+    overflow: visible;
+    stroke: #fedc5a;
+    stroke-width: 25;
+    z-index: -1;
+}
+.ul-list{
+    color:#8a909a;
+    font-size: 19px;
+    font-weight: 400;
+    position: relative;
+    text-align: left;
+    margin: 0 0 20px 0;
+}
+.line {
+    border-bottom: 1px solid #8a909a;
+    margin-bottom: 20px;
+    display: flex;
+}
+.paragraph{
+    font-size: 13px;
+    font-weight: 500;
+    margin:0;
+    max-width: 460px;
+}
+.section-two{
+    display: flex;
+    padding: 10px;
+    width: 50%;
+}
+.image-one{
+    position: relative;
+    text-align: left;
+    margin-top: 81px;
+    
+}
+.side-1{
+    max-width: 418px;
+    
+}
+.image-two{
+    position: absolute;
+    text-align: right;
+    
+}
+.side-2{
+    max-width: 360px;
+    margin-left: 200px;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 0px 20px 50px 0px rgb(28 9 32 / 19%);
+}
+.image-three{
+    position: absolute;
+    text-align: right;
+   
+}
+.side-3{
+    max-width: 370px;
+    margin-top: 300px;
+    margin-left: 100px;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 0px 20px 50px 0px rgb(28 9 32 / 19%);
+}
