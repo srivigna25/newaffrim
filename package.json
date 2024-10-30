@@ -1,0 +1,15 @@
+{
+  "name": "my-sass-project",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "sass --watch src/styles.scss:public/styles.css",
+    "build": "sass --no-source-map src/styles.scss:public/styles.css --style compressed",
+    "watch": "npm run dev",
+    "clean": "rm -rf public/*.css",
+    "server": "http-server ./"
+  },
+  "dependencies": {
+    "sass": "^1.79.3",
+    "serve": "^14.2.3"
+  }
+}
