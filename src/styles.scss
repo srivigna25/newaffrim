@@ -1,0 +1,14 @@
+@import './components/header.scss';
+@import './components/content.scss';
+@import './components/section.scss';
+@import './components/flex-container.scss';
+@import './components/Fusce.scss';
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+  box-sizing: border-box;
+}

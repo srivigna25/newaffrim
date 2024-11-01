@@ -1,0 +1,111 @@
+@media (min-width: 1025px) {
+    .header-main-title{
+      margin: 0 auto;
+      text-align: center;
+      .block{
+        margin: 0 auto;
+        top:300px;
+        right: 300px;
+        left:200px;
+        .heading{
+          color:white;
+          font-size: 55px;
+          width:770px;
+          font-weight: 700;
+          margin: 0 auto;
+        }
+        .paragraph{
+          font-family: "Rubik", sans-serif;
+          margin: 15px 130px 0 0;
+          padding: 0 30px;
+          text-align: center;
+          color: white;
+        }
+      }
+    }
+  }
+  .header-main-title{
+    margin: 0 auto;
+    background-image: url(https://ui-themez.smartinnovates.net/items/fula/img/bg2.jpg);
+    background-color:#172541;
+    background-position-x: 50%;
+    background-position-y:0px;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+    background-attachment: scroll;
+    height: 900px;
+  
+    .block{
+      position: absolute;
+      @media (min-width: 601px) and (max-width: 1024px) {
+        margin:80px 0 0 60px;
+        width:600px;
+      }
+      .heading{
+        color:white;
+        font-size: 55px;
+        font-weight: 700;
+      }
+    
+        .paragraph{
+          font-family: "Rubik", sans-serif;
+          padding: 0 30px;
+          text-align: center;
+          color: white;
+          margin-bottom: 30px;
+          display: none;
+          @media (min-width: 601px) and (max-width: 1024px) {
+            display: block;
+          }
+          @media (min-width:1025px){
+            display: block;
+          }
+        }
+      @media (min-width: 601px) and (max-width: 1024px) {
+        text-align: center;
+      } 
+      .contactus-link{
+        text-decoration: none;
+        max-width: 165px;
+        background-color: #fd7e14;
+        color: white;
+        padding: 14px 25px;
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        border-radius: 25px 25px 25px 25px;
+        margin-right: 5px;
+        @media (min-width: 601px) and (max-width: 1024px) {
+          text-align: center;  
+        }
+        @media (max-width:1025px){
+          display: inline-block;
+        }
+        &:hover{
+          background-color: white;
+          border: 2px solid #fd7e14;
+          color:#fd7e14;
+        }
+      }
+      .watchdemo-link{
+        text-decoration: none;
+        max-width: 165px;
+        color:white;
+        border:1px solid white;
+        padding: 14px 25px;
+        margin-left: 5px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        border-radius: 25px 25px 25px 25px;
+        @media (max-width:1025px){
+          display: inline-block;
+        }
+        &:hover{
+          background-color:#fd7e14;
+          border: 2px solid white;
+          color:white;
+        }
+      }
+    }
+  }

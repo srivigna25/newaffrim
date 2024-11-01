@@ -1,0 +1,126 @@
+@media (min-width: 601px) and (max-width: 1024px) {
+    .affrim-footer{
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 1025px) {
+    .affrim-footer{
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .footer{
+        width:552px
+    }
+    .footer{
+        .footer-section{
+            padding:0;
+        }
+    }
+    .footer-section{
+        width:276px;
+        padding:10px;
+        margin-top:0;
+    }
+    .para{
+        line-height:28px;
+        padding-right: 50px;
+        width:470px;
+    }
+    .link{
+        line-height:28px;
+    }
+}
+@mixin section($font-color,$font-size,$font-wgt,$ltr-spc_){
+    color:$font-color;
+    font-size:$font-size;
+    font-weight:$font-wgt;
+    letter-spacing:$ltr-spc_;
+}
+* {
+    box-sizing: border-box;
+}
+.affrim-footer-section{
+    margin:0 18px 0 18px;
+    padding:50px 0;
+}
+.footer{
+    padding: 10px;
+    .footer-section{
+        padding:0;;
+        margin:0;
+    }
+}
+.footer-section{
+    padding:10px;
+    .heading{
+    @include section(#6e7a84b3,12px,700,1.2px);
+        margin-bottom: 20px;
+        margin-top:0;
+    }
+}
+.paragraph{
+    .para{
+        color:#6e7a84b3;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        margin-top:0;
+    }
+}
+.under-list{
+    margin:0;
+    padding:0;
+    .li-list{
+        .link{
+            text-decoration: none;
+            color:black;
+        }
+         &:hover .span{
+            color:#00c49a;
+        }
+    }
+}
+
+.li-list{
+    .address{
+        margin:0;
+    }
+}
+.circle{
+    border:1px solid #8a909a;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+.fa-facebook{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    justify-content: center;
+    
+}
+
+.fa-instagram{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    justify-content: center;
+    justify-items: center;
+}
+.fa-linkedin{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    justify-content: center;
+}
+left:630px;
+            top:3900px;
