@@ -26,6 +26,7 @@
 }
 @media (min-width: 1025px) {
     .Fusce{
+        position: relative;
         .Fusce-section{
             padding: 0;
             max-width : 1200px;
@@ -34,12 +35,14 @@
             margin: 0 auto;
             .Fusce-second-block{
                 .dots{    
-                    top:2730px;
-                    left: 950px;
+                    top:290px;
+                    right: 780px;
+                    left: auto;
                 }
                 .circle{
-                    top:2500px;
-                    left:1350px;
+                    top:60px;
+                    right: 330px;
+                    left: auto;
                 }
             }
         }

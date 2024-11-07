@@ -82,13 +82,23 @@ body{
 .hidden{
   display: none;
 }
-
+.dropdown{
+  position: relative;
+}
+.dropdown-menu{
+  position: absolute;
+  z-index: 9;
+  top: 40px;
+  width: 160px;
+  background-color: #fff;
+  
+}
 .dropdown-item{
   text-decoration: none;
   display: flex;
   flex-direction: column;
   padding: 10px 20px 10px 25px;
-  color: #222;
+  color: #212529;
   font-size: 12px;
   font-weight: 400;
   align-items: center;
