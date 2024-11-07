@@ -13,12 +13,10 @@
             }
             .Fusce-second-block{
                 .dots{
-                    left:400px;
-                    top:3400px;
+                    left:400px;   
                 }
                 .circle{
                     left:565px;
-                    top:3320px
                 }
             }
         }
@@ -51,6 +49,7 @@
 .Fusce{
     display: flex;
     padding:140px 0 ;
+    position: relative;
     .Fusce-first-block{
         padding: 0 15px;
         .Awesome{
@@ -92,7 +91,6 @@
                 border: 1px solid #fd7e14;
             }
             span{
-               
                 .fa-angle-right{
                     border-left: 1px solid rgb(200 200 200 / 30%);
                     padding-left: 5px;
@@ -119,7 +117,7 @@
             background-image: url(https://ui-themez.smartinnovates.net/items/fula/img/dots2.png);
             position: absolute;
             left: 20px;
-            top:3850px;
+            top:200px;
             z-index: -1;
             color:#172541;
         }
@@ -130,8 +128,8 @@
             border-radius: 50%;
             position: absolute;
             background-color: #fb8133;
-            left:230px;
-            top:3690px;
+            left:200px;
+            top:60px;
             opacity: .2;
             z-index: -1;
         }
